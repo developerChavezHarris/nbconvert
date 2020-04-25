@@ -68,7 +68,9 @@ div.notebook div.nbconvert div.output_stderr pre
 }
 
 div.notebook div.nbconvert div.hl-ipython3 pre {
-  margin:0
+  margin:0;
+  overflow-x: scroll;
+  
 }
 
 div.notebook div.nbconvert .dataframe thead tr:only-child th {
@@ -126,6 +128,7 @@ div.notebook div.nbconvert .input_prompt {
   float: left;
   margin-right: 5px;
   margin-top: 3px;
+  overflow-y: scroll;
 }
 div.notebook div.nbconvert .input_area pre {
     border: 1px solid #cfcfcf;
@@ -133,16 +136,19 @@ div.notebook div.nbconvert .input_area pre {
     background: #f7f7f7;
     line-height: 1.21429em;
   padding: 6px 3px 6px 6px;
+  overflow-x: scroll;
 }
 
 div.notebook div.nbconvert .output_prompt{
     color:#cc0000;
   font-weight: bold;
+  overflow-x: scroll;
 }
 div.notebook div.nbconvert .prompt{
     font-family: monospace;
     font-size: 14px;
     float: left;
+    overflow-x: scroll;
 }
 div.notebook div.nbconvert .c, 
 div.notebook div.nbconvert c1 {
@@ -229,10 +235,12 @@ div.notebook div.nbconvert a:hover {
 
 div.notebook div.nbconvert .code_cell {
     padding-left: 1%;
+    overflow-x: scroll;
 }
 div.notebook div.nbconvert .cell {
     margin-top: 10px;
     margin-bottom: 10px;
+    overflow-x: scroll;
 }
 div.notebook div.nbconvert br {
     line-height: 2;
