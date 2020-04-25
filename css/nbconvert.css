@@ -5,7 +5,7 @@
 div.notebook {
     position: relative;
     font-size: 0.75em;
-    border: 3px red dashed;
+    border: 2px dashed;
     padding: 10px;
     margin-bottom:15px
 }
@@ -41,10 +41,6 @@ div.notebook div.nbconvert {
   margin-top: 25px;
 }
 
-div.notebook div {
-  overflow-x: scroll;
-}
-
 /************** Jupyter Notebook CSS ************************/
 
 div.notebook div.nbconvert .input pre, .output pre {
@@ -60,7 +56,6 @@ div.notebook div.nbconvert div .dataframe {
 
 div.notebook div.nbconvert div.output_stdout pre {
   max-height:300px;
-  overflow-x: scroll;
 }
 
 div.notebook div.nbconvert div.output_stderr pre
@@ -68,12 +63,10 @@ div.notebook div.nbconvert div.output_stderr pre
   background: #fdd;
   margin:0;
   max-height:300px;
-  overflow-x: scroll;
 }
 
 div.notebook div.nbconvert div.hl-ipython3 pre {
   margin:0;
-  overflow-x: scroll;
   
 }
 
@@ -132,7 +125,6 @@ div.notebook div.nbconvert .input_prompt {
   float: left;
   margin-right: 5px;
   margin-top: 3px;
-  overflow-y: scroll;
 }
 div.notebook div.nbconvert .input_area pre {
     border: 1px solid #cfcfcf;
@@ -140,7 +132,6 @@ div.notebook div.nbconvert .input_area pre {
     background: #f7f7f7;
     line-height: 1.21429em;
   padding: 6px 3px 6px 6px;
-  overflow-x: scroll;
 }
 
 div.notebook div.nbconvert .output_prompt{
@@ -244,7 +235,6 @@ div.notebook div.nbconvert .code_cell {
 div.notebook div.nbconvert .cell {
     margin-top: 10px;
     margin-bottom: 10px;
-    overflow-x: scroll;
 }
 div.notebook div.nbconvert br {
     line-height: 2;
