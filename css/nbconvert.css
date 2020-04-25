@@ -137,13 +137,13 @@ div.notebook div.nbconvert .input_area pre {
 div.notebook div.nbconvert .output_prompt{
     color:#cc0000;
   font-weight: bold;
- 
+  overflow-x: scroll;
 }
 div.notebook div.nbconvert .prompt{
     font-family: monospace;
     font-size: 14px;
     float: left;
-    
+    overflow-x: scroll;
 }
 div.notebook div.nbconvert .c, 
 div.notebook div.nbconvert c1 {
@@ -230,10 +230,12 @@ div.notebook div.nbconvert a:hover {
 
 div.notebook div.nbconvert .code_cell {
     padding-left: 1%;
+    overflow-x: scroll;
 }
 div.notebook div.nbconvert .cell {
     margin-top: 10px;
     margin-bottom: 10px;
+    /* overflow-x: scroll; */
 }
 div.notebook div.nbconvert br {
     line-height: 2;
@@ -247,6 +249,7 @@ div.notebook div.nbconvert code {
   border: none;
   box-shadow: none;
   font-family: monospace;
+  overflow-x: scroll;
 }
 div.notebook div.nbconvert div.rendered_html h1, 
 div.notebook div.nbconvert div.rendered_html h2, 
