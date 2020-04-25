@@ -96,7 +96,7 @@ function nbconvert_function($atts) {
         <label class="github-last-update"> Last updated: '.$last_update_date_time.'</label>
       </label>
       </div>
-    <div class="nbconvert">'.$nb_output.'
+    <div class="nbconvert" style="overflow-x: scroll;">'.$nb_output.'
     </div>
   </div>';
 

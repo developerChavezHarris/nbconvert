@@ -5,7 +5,7 @@
 div.notebook {
     position: relative;
     font-size: 0.75em;
-    border: 3px dashed;
+    border: 3px red dashed;
     padding: 10px;
     margin-bottom:15px
 }
@@ -272,8 +272,8 @@ div.notebook div.nbconvert div.rendered_html p a {
   color: #4D00FF;
 }
 
-table.dataframe {
-  overflow-x: scroll;
+table {
+  overflow-x: scroll !important;
 }
 
 /************** Jupyter Notebook CSS ************************/
