@@ -228,7 +228,7 @@ div.notebook div.nbconvert a:hover {
 
 div.notebook div.nbconvert .code_cell {
     padding-left: 1%;
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 div.notebook div.nbconvert .cell {
     margin-top: 10px;
@@ -260,8 +260,8 @@ div.notebook div.nbconvert div.rendered_html p a {
   color: #4D00FF;
 }
 
-table {
+/* table {
   overflow-x: scroll !important;
-}
+} */
 
 /************** Jupyter Notebook CSS ************************/
