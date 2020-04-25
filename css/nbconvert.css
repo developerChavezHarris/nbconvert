@@ -50,11 +50,13 @@ div.notebook div.nbconvert .input pre, .output pre {
 div.notebook div.nbconvert div .dataframe {
   border:none;
   margin: 0 auto;
+  overflow-x: scroll;
 }
 
 
 div.notebook div.nbconvert div.output_stdout pre {
   max-height:300px;
+  overflow-x: scroll;
 }
 
 div.notebook div.nbconvert div.output_stderr pre
@@ -62,6 +64,7 @@ div.notebook div.nbconvert div.output_stderr pre
   background: #fdd;
   margin:0;
   max-height:300px;
+  overflow-x: scroll;
 }
 
 div.notebook div.nbconvert div.hl-ipython3 pre {
@@ -243,6 +246,7 @@ div.notebook div.nbconvert code {
   border: none;
   box-shadow: none;
   font-family: monospace;
+  overflow-x: scroll;
 }
 div.notebook div.nbconvert div.rendered_html h1, 
 div.notebook div.nbconvert div.rendered_html h2, 
