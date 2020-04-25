@@ -41,6 +41,10 @@ div.notebook div.nbconvert {
   margin-top: 25px;
 }
 
+div.notebook div {
+  overflow-x: scroll;
+}
+
 /************** Jupyter Notebook CSS ************************/
 
 div.notebook div.nbconvert .input pre, .output pre {
@@ -267,4 +271,9 @@ div.notebook div.nbconvert div.rendered_html h4 {
 div.notebook div.nbconvert div.rendered_html p a {
   color: #4D00FF;
 }
+
+table.dataframe {
+  overflow-x: scroll;
+}
+
 /************** Jupyter Notebook CSS ************************/

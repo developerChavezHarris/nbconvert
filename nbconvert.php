@@ -1,8 +1,8 @@
 <?php
    /*
-   Plugin Name: NbConvert
+   Plugin Name: NbConvert_dct
    Description: A plugin to add ipynb files to a blog post or page using nbviewer
-   Version: 1.0
+   Version: 1.0.1
    Author: Andrew Challis
    Author URI: http://www.andrewchallis.com
    License: MIT
